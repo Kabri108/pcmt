@@ -4,6 +4,7 @@ import AboutUs from "./Screens/AboutUs";
 import ContactUs from "./Screens/ContactUs";
 import Placement from "./Screens/Placement";
 import Events from "./Screens/Events";
+import CampusLife from "./Screens/CampusLife";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         <Route path="/contactUs" element={<ContactUs />} />
         <Route path="/placement" element={<Placement />} />
         <Route path="/events" element={<Events />} />
-        <Route path="/campus-life" element={<Events />} />
+        <Route path="/campus-life" element={<CampusLife />} />
+        <Route path="/contact-us" element={<ContactUs />} />
       </Routes>
     </Router>
   );

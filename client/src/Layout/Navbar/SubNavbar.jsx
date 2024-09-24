@@ -95,7 +95,7 @@ const SubNavbar = () => {
           <Link to="/placement" className="hover:text-subMain">Placements</Link>
           <Link to="/events" className="hover:text-subMain">Events</Link>
           <Link to="/campus-life" className="hover:text-subMain">Campus Life</Link>
-          <Link to="/contact" className="hover:text-subMain">Contact Us</Link>
+          <Link to="/contact-us" className="hover:text-subMain">Contact Us</Link>
         </div>
 
         {/* Search Bar and Login Button */}

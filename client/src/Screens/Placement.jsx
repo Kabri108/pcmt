@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import React from 'react';
+import Layout from '../Layout/Layout';
 
 const PlacementPage = () => {
   // Framer Motion animation variants
@@ -19,10 +20,11 @@ const PlacementPage = () => {
   };
 
   return (
+    <Layout>
     <div className="bg-gray-100 p-6">
       {/* Placement Banner */}
       <motion.div
-        className="bg-blue-600 text-white py-16 text-center"
+        className="bg-gray-200 text-red-500 py-6 text-center"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
@@ -138,7 +140,7 @@ const PlacementPage = () => {
               "Thanks to the incredible placement cell at the college, I was able to secure a job at
               a leading tech company right after graduation!"
             </p>
-            <p className="mt-4 text-right font-bold text-subMain">- John Doe</p>
+            <p className="mt-4 text-right font-bold text-subMain">- Sujan Das</p>
           </div>
 
           {/* Testimonial 2 */}
@@ -147,7 +149,7 @@ const PlacementPage = () => {
               "The hands-on training and industry exposure I received at the college were crucial in
               helping me prepare for interviews and land my dream job."
             </p>
-            <p className="mt-4 text-right font-bold text-subMain">- Jane Smith</p>
+            <p className="mt-4 text-right font-bold text-subMain">Deepanwita Pal</p>
           </div>
         </motion.div>
       </div>
@@ -172,6 +174,8 @@ const PlacementPage = () => {
         </a>
       </motion.div>
     </div>
+
+    </Layout>
   );
 };
 

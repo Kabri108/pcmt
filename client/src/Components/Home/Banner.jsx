@@ -5,17 +5,22 @@ const sliderData = [
   {
     image: 'cocktail.jpg',
     title: 'Cocktail & Mocktail Compitition 2024',
-    description: 'This is the description for the first slide.',
+    description: 'Few snaps of the amazing event with participants from different institutions..',
   },
   {
-    image: 'https://via.placeholder.com/800x600/ff7f7f',
-    title: 'Second Slide',
-    description: 'This is the description for the second slide.',
+    image: 'banner.jpg',
+    title: 'FREE HEALTH & EYE CHECKUP CAMP 2024',
+    description: 'Thanks to Narayan Memorial Hospital for your excellent Health team & thanks to our very own Optometry department for making out the great Eye team!',
   },
   {
-    image: 'https://via.placeholder.com/800x600/7f7fff',
-    title: 'Third Slide',
-    description: 'This is the description for the third slide.',
+    image: 'farewell.jpg',
+    title: 'Farewell For Seniors 2023',
+    description: 'Farewell for seniors 2024 ad give them best wises for there future life by students and teachers',
+  },
+  {
+    image: 'Blood.jpg',
+    title: 'Blood Donation Camp 2023',
+    description: 'Your Blood can save another Life',
   },
 ];
 

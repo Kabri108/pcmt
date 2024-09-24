@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import React from 'react';
+import Layout from '../Layout/Layout';
 
 const AboutUs = () => {
   // Framer Motion animation variants
@@ -19,6 +20,8 @@ const AboutUs = () => {
   };
 
   return (
+    <Layout>
+
     <div className="bg-gray-100 p-6">
       {/* Header Section */}
       <motion.div
@@ -116,6 +119,7 @@ The institution has expanded to include other specialized colleges and programs,
         </p>
       </motion.div>
     </div>
+    </Layout>
   );
 };
 
