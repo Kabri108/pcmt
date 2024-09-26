@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import TextScaleAnimation from '../Components/ReusableComponent/TextAnimation';
+import Layout from '../Layout/Layout';
 
 const CampusLife = () => {
   // Variants for animation
@@ -19,6 +20,7 @@ const CampusLife = () => {
   };
 
   return (
+    <Layout>
     <div className="px-8 py-12 bg-gray-100">
       <motion.div
         className="text-center mb-8"
@@ -55,6 +57,7 @@ const CampusLife = () => {
         ))}
       </div>
     </div>
+    </Layout>
   );
 };
 
